@@ -11,15 +11,15 @@
 </head>
 
 <body>
-    <main class="w-full h-screen flex flex-col items-center justify-center bg-[#122F33] font-poppins gap-y-6">
+    <main class="w-full h-screen flex flex-col items-center justify-center bg-[#122F33] font-poppins gap-y-6 sm:gap-y-3">
         <div id="container-generator"
-            class="w-[495px] h-[328px] sm:w-[280px] sm:h-[113px] bg-[#122F33] shadow-3xl text-white flex flex-col items-center justify-center gap-y-6">
+            class="w-[495px] h-[328px] sm:w-[280px] sm:h-[113px] bg-[#122F33] shadow-3xl text-white flex flex-col items-center justify-center gap-y-6 sm:gap-y-3">
             <h1 class="font-medium text-2xl sm:text-lg">Generator Password</h1>
             <label for="password" class="flex">
-                <p id="password" class="w-[350px] h-[55px] bg-[#18393E] pl-6 flex items-center"> 
+                <p id="password" class="w-[350px] h-[55px] sm:w-[135px] sm:h-[21px] bg-[#18393E] pl-6 sm:pl-3 flex items-center"> 
                 </p>
                 <button id="btn-generator"
-                    class="w-[55px] h-[55px] ml-[-55px] bg-[#19B0C5] flex items-center justify-center">
+                    class="w-[55px] h-[55px] ml-[-55px] sm:w-[21px] sm:h-[21px] sm:ml-[-21px] bg-[#19B0C5] flex items-center justify-center">
                     <div id="icon-generator">
                         <svg fill="#122F33" xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 512 512">
                             <path
@@ -29,7 +29,7 @@
                 </button>
             </label>
             <p class="text-sm">Choose the length of your password</p>
-            <div id="choose-lenght" class="flex gap-x-6">
+            <div id="choose-lenght" class="flex gap-x-6 sm:gap-x-2">
                 <div class="border-b-2 border-[#F06C21]">
                     <label for="lenght-1">8
                         <input type="radio" name="lenght" value="8" id="lenght-1" checked>
@@ -46,12 +46,11 @@
                     </label>
                 </div>
             </div>
-            <p class="font-medium text-[12px] border p-1">Advice: the more characters the more secure</p>
+            <p class="font-medium text-[12px] sm:text-[6px] border p-1">Advice: the more characters the more secure</p>
         </div>
         <div id="footer" class="text-center">
             <h3 class="text-white">By Mayra Denot from Argentina ❤️</h3>
         </div>
     </main>
 </body>
-
 </html>
